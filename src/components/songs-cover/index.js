@@ -9,7 +9,7 @@ export default memo(function WMSongsCover(props) {
   const { info } = props
 
   return (
-    <ThemeCoverWrapper>
+    <ThemeCoverWrapper right={info.right} left={info.left}>
       <div className="cover-top">
         <img src={getSizeImage(info.picUrl, 140)} alt="" />
         <div className="cover sprite_cover">

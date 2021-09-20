@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const PlayerWrapper = styled.div`
+  z-index:9999;
   .content {
     background: url(${require("@/assets/img/wrap-bg.png").default}) repeat-y;
     background-color: #fff;
