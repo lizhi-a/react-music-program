@@ -71,7 +71,6 @@ export default memo(function App() {
 以下内容都被抽取到` components目录`中。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/c26de374d4554400a3aae10f51b17a9a.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/66f3302354794a859d0cf1b3b617e50a.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/90a36e595dd749e195256afe53bc7a2f.png =150x170)
 ## 8.	对于图片及播放次数也做了格式化处理
 图片的处理：在 utils 目录的 format-utils 下编写 `getSizeImage` 函数，根据输入的参数来决定图片的大小
 对数字的处理：在 utils 目录的 format-utils 下编写 `getCount` 函数，格式化歌曲播放数量，让用户可以更直观的知道播放次数
