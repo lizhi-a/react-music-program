@@ -10,18 +10,7 @@
 7.	切换不同分类的歌单、歌手、电台
 8.	实现推荐、排行榜、歌单、主播电台、歌手、新碟上架板块的展示
 # 二、最终效果
-首页：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/28f4ff80666142a4b1e91958597e7428.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
-排行榜：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/59af7de5f7444ba4a7f8daef47aef918.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
-歌单：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0a024eba400b42c79bc804c04cec0bcb.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
-主播电台：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/cd7af4aa123b47d8a5fa6f1ce2336642.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
-歌手：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/98f9f8966819449aa876ff45da0e503d.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
-新碟上架：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/531aff496970424b8fa52e53f67d1c05.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbGl0Y2hpIGRyZWFt,size_20,color_FFFFFF,t_70,g_se,x_16)
+见博客 https://blog.csdn.net/ladream/article/details/120487140
 # 三、文件目录结构说明
 ![请添加图片描述](https://img-blog.csdnimg.cn/3a6e94c3c5ef4b03b16e0b57fa73e8bc.png)
  - assets：存放共用的css、font图标、image
@@ -175,5 +164,3 @@ const playMusic = useCallback(() => {
     setCurrentTime(currentTime * 1000)
   }, [duration])
 ```
-# 七、github链接
-[react仿写网易云音乐项目](https://github.com/lizhi-a/react-music-program)
