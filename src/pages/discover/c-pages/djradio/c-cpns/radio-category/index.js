@@ -11,7 +11,7 @@ export default memo(function WMRadioCategory() {
   const { categories } = useSelector(state => ({
     categories: state.getIn(['djRadio', 'categories'])
   }), shallowEqual)
-  console.log(categories)
+  // console.log(categories)
 
   // other hooks
   useEffect(() => {

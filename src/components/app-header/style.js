@@ -25,6 +25,12 @@ export const HeaderLeft = styled.div`
     background-position: 0 0;
     text-indent:-9999px;
   }
+  .title{
+    color:white;
+    font-size: 22px;
+    font-weight:700;
+    line-height:69px;
+  }
 
   .select-list{
     display: flex;

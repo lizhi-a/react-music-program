@@ -118,7 +118,6 @@ export default memo(function WMAppPlayerBar() {
     } else {
       dispatch(changeCurrentIndexAndSongAction(1))
     }
-
   }
 
   const sliderChange = useCallback((value) => {

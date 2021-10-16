@@ -28,9 +28,9 @@ function WMRecommend(props) {
           <WMRecommendRanking />
         </RecommendLeft>
         <RecommendRight>
-          <WMUserLogin />
+          {/* <WMUserLogin /> */}
           <WMHotAnchor />
-          <WMSettleSinger />
+          {/* <WMSettleSinger /> */}
         </RecommendRight>
       </Content>
     </RecommendWrapper>
